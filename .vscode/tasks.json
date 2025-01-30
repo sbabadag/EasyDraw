@@ -1,0 +1,54 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Clean Build Dir",
+            "type": "shell",
+            "windows": {
+                "command": "if exist build rd /s /q build"
+            },
+            "linux": {
+                "command": "rm",
+                "args": ["-rf", "build"]
+            },
+            "osx": {
+                "command": "rm",
+                "args": ["-rf", "build"]
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CMake Configure",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-B",
+                "build",
+                "-G",
+                "MinGW Makefiles",
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+                "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe"
+            ],
+            "dependsOn": ["Clean Build Dir"],
+            "problemMatcher": []
+        },
+        {
+            "label": "CMake Build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "build",
+                "--config",
+                "Debug"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": ["CMake Configure"],
+            "problemMatcher": "$gcc"
+        }
+    ]
+}
