@@ -29,4 +29,6 @@ private:
     Handle(AIS_InteractiveContext) m_context;
     Handle(V3d_View) m_view;
     Handle(V3d_Viewer) m_viewer;
+    bool m_middleMouseDown;
+    QPoint m_lastPos;  // Add this line
 };

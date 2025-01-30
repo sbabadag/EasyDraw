@@ -10,11 +10,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/OccViewer.dir/mainwindow.cpp.obj.d"
   "CMakeFiles/OccViewer.dir/occview.cpp.obj"
   "CMakeFiles/OccViewer.dir/occview.cpp.obj.d"
-  "OccViewer.exe"
-  "OccViewer.exe.manifest"
-  "OccViewer.pdb"
   "OccViewer_autogen/mocs_compilation.cpp"
   "OccViewer_autogen/timestamp"
+  "bin/OccViewer.exe"
+  "bin/OccViewer.exe.manifest"
+  "bin/OccViewer.pdb"
   "libOccViewer.dll.a"
 )
 

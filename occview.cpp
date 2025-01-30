@@ -10,7 +10,7 @@
 #include <Aspect_TypeOfTriedronPosition.hxx>
 #include <Graphic3d_GraphicDriver.hxx>
 
-OccView::OccView(QWidget* parent) : QWidget(parent)
+OccView::OccView(QWidget* parent) : QWidget(parent), m_middleMouseDown(false)
 {
     setAttribute(Qt::WA_PaintOnScreen);
     setAttribute(Qt::WA_NoSystemBackground);
@@ -79,10 +79,16 @@ void OccView::mousePressEvent(QMouseEvent* event)
 {
     if (event->button() == Qt::LeftButton)
         m_view->StartRotation(event->pos().x(), event->pos().y());
+    else if (event->button() == Qt::MiddleButton) {
+        m_middleMouseDown = true;
+        m_lastPos = event->pos();  // Store initial position
+    }
 }
 
 void OccView::mouseReleaseEvent(QMouseEvent* event)
 {
+    if (event->button() == Qt::MiddleButton)
+        m_middleMouseDown = false;
 }
 
 void OccView::mouseMoveEvent(QMouseEvent* event)
@@ -90,6 +96,12 @@ void OccView::mouseMoveEvent(QMouseEvent* event)
     if (event->buttons() & Qt::LeftButton)
     {
         m_view->Rotation(event->pos().x(), event->pos().y());
+    }
+    else if (m_middleMouseDown)
+    {
+        m_view->Pan(event->pos().x() - m_lastPos.x(), 
+                   -(event->pos().y() - m_lastPos.y())); // Reverse Y for intuitive pan
+        m_lastPos = event->pos();  // Update last position
     }
 }
 

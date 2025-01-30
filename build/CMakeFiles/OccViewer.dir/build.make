@@ -148,49 +148,72 @@ OccViewer_OBJECTS = \
 # External object files for target OccViewer
 OccViewer_EXTERNAL_OBJECTS =
 
-OccViewer.exe: CMakeFiles/OccViewer.dir/OccViewer_autogen/mocs_compilation.cpp.obj
-OccViewer.exe: CMakeFiles/OccViewer.dir/main.cpp.obj
-OccViewer.exe: CMakeFiles/OccViewer.dir/mainwindow.cpp.obj
-OccViewer.exe: CMakeFiles/OccViewer.dir/occview.cpp.obj
-OccViewer.exe: CMakeFiles/OccViewer.dir/build.make
-OccViewer.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6Widgets.a
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKOffset.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKMeshVS.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKV3d.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKOpenGl.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKBin.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKXml.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKXSBase.lib
-OccViewer.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6Gui.a
-OccViewer.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6Core.a
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKFillet.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKBool.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKMesh.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKHLR.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKService.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKCAF.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKBO.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKPrim.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKLCAF.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKCDF.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKShHealing.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKTopAlgo.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKGeomAlgo.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKBRep.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKGeomBase.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKG3d.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKG2d.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKMath.lib
-OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKernel.lib
-OccViewer.exe: CMakeFiles/OccViewer.dir/linkLibs.rsp
-OccViewer.exe: CMakeFiles/OccViewer.dir/objects1.rsp
-OccViewer.exe: CMakeFiles/OccViewer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\RN\2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable OccViewer.exe"
+bin/OccViewer.exe: CMakeFiles/OccViewer.dir/OccViewer_autogen/mocs_compilation.cpp.obj
+bin/OccViewer.exe: CMakeFiles/OccViewer.dir/main.cpp.obj
+bin/OccViewer.exe: CMakeFiles/OccViewer.dir/mainwindow.cpp.obj
+bin/OccViewer.exe: CMakeFiles/OccViewer.dir/occview.cpp.obj
+bin/OccViewer.exe: CMakeFiles/OccViewer.dir/build.make
+bin/OccViewer.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6Widgets.a
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKOffset.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKFeat.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKXMesh.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKOpenGl.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKMeshVS.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKDESTEP.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKDEIGES.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKDESTL.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKDEVRML.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKDECascade.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKBinXCAF.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKXmlXCAF.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKDEOBJ.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKDEGLTF.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKDEPLY.lib
+bin/OccViewer.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6Gui.a
+bin/OccViewer.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6Core.a
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKFillet.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKBool.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKXSBase.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKStd.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKStdL.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKBinTObj.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKXmlTObj.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKTObj.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKBin.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKBinL.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKXml.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKXmlL.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKRWMesh.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKDE.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKXCAF.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKVCAF.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKV3d.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKHLR.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKMesh.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKService.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKCAF.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKBO.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKPrim.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKShHealing.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKTopAlgo.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKGeomAlgo.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKBRep.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKGeomBase.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKG3d.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKG2d.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKMath.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKLCAF.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKCDF.lib
+bin/OccViewer.exe: C:/vcpkg/packages/opencascade_x64-windows/debug/lib/TKernel.lib
+bin/OccViewer.exe: CMakeFiles/OccViewer.dir/linkLibs.rsp
+bin/OccViewer.exe: CMakeFiles/OccViewer.dir/objects1.rsp
+bin/OccViewer.exe: CMakeFiles/OccViewer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\RN\2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable bin\OccViewer.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OccViewer.dir\link.txt --verbose=$(VERBOSE)
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/vcpkg/packages/opencascade_x64-windows/lib/TK*.dll C:/RN/2/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory /bin C:/RN/2/build/bin
 
 # Rule to build all files generated by this target.
-CMakeFiles/OccViewer.dir/build: OccViewer.exe
+CMakeFiles/OccViewer.dir/build: bin/OccViewer.exe
 .PHONY : CMakeFiles/OccViewer.dir/build
 
 CMakeFiles/OccViewer.dir/clean:

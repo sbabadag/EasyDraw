@@ -4,6 +4,7 @@
 #define __FLT16_HAS_QUIET_NAN__ 1
 #define __ATOMIC_ACQUIRE 2
 #define __FLT128_MAX_10_EXP__ 4932
+#define HAVE_RAPIDJSON 1
 #define __FLT_MIN__ 1.17549435082228750796873653722224568e-38F
 #define __GCC_IEC_559_COMPLEX 2
 #define __cpp_aggregate_nsdmi 201304L
@@ -98,6 +99,7 @@
 #define __FLT32_MAX_10_EXP__ 38
 #define __FLT64X_EPSILON__ 1.08420217248550443400745280086994171e-19F64x
 #define __STDC_HOSTED__ 1
+#define HAVE_FSTREAM 1
 #define __DEC64_MIN_EXP__ (-382)
 #define __WIN64 1
 #define __cpp_decltype_auto 201304L
@@ -113,7 +115,9 @@
 #define __cpp_enumerator_attributes 201411L
 #define __FLT64X_DENORM_MIN__ 3.64519953188247460252840593361941982e-4951F64x
 #define __FLT32X_HAS_INFINITY__ 1
+#define HAVE_STRING 1
 #define __INT_WIDTH__ 32
+#define HAVE_CLIMITS 1
 #define UNICODE 1
 #define __DECIMAL_DIG__ 21
 #define __FLT64_EPSILON__ 2.22044604925031308084726333618164062e-16F64
@@ -197,6 +201,7 @@
 #define __BFLT16_MAX__ 3.38953138925153547590470800371487867e+38BF16
 #define __FLT64_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F64
 #define __cpp_template_auto 201606L
+#define HAVE_IOMANIP 1
 #define __FLT16_DENORM_MIN__ 5.96046447753906250000000000000000000e-8F16
 #define __FLT128_EPSILON__ 1.92592994438723585305597794258492732e-34F128
 #define __FLT64X_NORM_MAX__ 1.18973149535723176502126385303097021e+4932F64x
@@ -215,6 +220,7 @@
 #define __UINT16_MAX__ 0xffff
 #define __cdecl __attribute__((__cdecl__))
 #define __FLT128_HAS_INFINITY__ 1
+#define HAVE_TK 1
 #define __FLT32_MIN__ 1.17549435082228750796873653722224568e-38F32
 #define __UINT8_TYPE__ unsigned char
 #define __FLT_DIG__ 6
@@ -291,6 +297,7 @@
 #define __LONG_MAX__ 0x7fffffffL
 #define __FLT64X_HAS_DENORM__ 1
 #define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
+#define STANDARD_TYPE_HANDLE 1
 #define __FLT_HAS_INFINITY__ 1
 #define __GNUC_EXECUTION_CHARSET_NAME "UTF-8"
 #define __cpp_unicode_literals 200710L
@@ -326,6 +333,7 @@
 #define HAVE_WOK_CONFIG_H 1
 #define __stdcall __attribute__((__stdcall__))
 #define __FLT32_MIN_10_EXP__ (-37)
+#define HAVE_OPENCASCADE 1
 #define __EXCEPTIONS 1
 #define __GXX_MERGED_TYPEINFO_NAMES 0
 #define __UINT16_C(c) c
@@ -410,6 +418,7 @@
 #define __FLT64X_MIN__ 3.36210314311209350626267781732175260e-4932F64x
 #define __STDCPP_THREADS__ 1
 #define __BFLT16_HAS_DENORM__ 1
+#define HAVE_LIMITS_H 1
 #define __GNUC_STDC_INLINE__ 1
 #define __FLT64_HAS_DENORM__ 1
 #define __FLT32_EPSILON__ 1.19209289550781250000000000000000000e-7F32
@@ -466,6 +475,7 @@
 #define __INT16_C(c) c
 #define __STDC__ 1
 #define __PTRDIFF_TYPE__ long long int
+#define HAVE_IOSTREAM 1
 #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_16 1
 #define __FLT32X_MIN_10_EXP__ (-307)
 #define __UINTPTR_TYPE__ long long unsigned int
@@ -483,6 +493,7 @@
 #define __UINT_FAST16_MAX__ 0xffff
 #define __LDBL_NORM_MAX__ 1.18973149535723176502126385303097021e+4932L
 #define __GCC_ATOMIC_SHORT_LOCK_FREE 2
+#define USE_STL_STREAM 1
 #define __SIZE_MAX__ 0xffffffffffffffffULL
 #define __UINT_FAST8_TYPE__ unsigned char
 #define __cpp_init_captures 201304L
